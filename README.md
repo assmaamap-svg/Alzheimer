@@ -15,7 +15,7 @@ Magalie CESARINI
 ```bash
 Code
 ├── api/                     # Backend FastAPI + frontend Streamlit
-│   ├── src/                 # Pipelines + logique métier (préprocessing)
+│   ├── src/                 # Pipelines + logique métier (préprocessing, training)
 │   ├── artifacts/           # Models / Metrics exportés pour l'API
 │   ├── backend/             # Code backend (routes FastAPI)
 │   ├── frontend/            # Code Streamlit (UI)
@@ -34,13 +34,12 @@ Code
 │
 ├── ml/                      # Machine Learning tabulaire
 │   ├── notebooks/           # EDA, préprocessing, modèles ML
-│   ├── models/              # Modèles entraînés (pickle, joblib)
-│   └── src/                 # Scripts ML (training, save, evaluation)
+│   ├── models/              # Modèles ML
+│   └── src/                 # Scripts ML (prépocessing, training)
 │
 ├── dl/                      # Deep Learning (IRM)
 │   ├── notebooks/           # CNN, prétraitement images
-│   ├── models/              # Modèles DL (h5, saved_model)
-│   └── src/                 # Scripts DL (training, augmentation)
+│   └── models/              # Modèles DL              
 │
 ├── docs/                    # Documentation projet
 │   ├── pia/                 # Rapport PIA RGPD
@@ -155,9 +154,8 @@ Utilisation de CNN pour analyser les images IRM (atrophie hippocampique).
 
     Modèle CNN (TensorFlow / Keras)
 
-    Classification Alzheimer,MCI / Sain
+    Classification Alzheimer / Sain
 
-Approche multimodale : tabulaire + imagerie.
 ## 8. Visualisation – Power BI
 
 Création de dashboards interactifs :
