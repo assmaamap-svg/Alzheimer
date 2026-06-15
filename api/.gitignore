@@ -1,0 +1,13 @@
+# Environnements Python
+.venv/
+venv/
+__pycache__/
+*.pyc
+.pytest_cache/
+artifacts/*.png
+
+
+# Système / IDE
+.vscode/
+.DS_Store
+Thumbs.db
