@@ -182,10 +182,6 @@ Déploiement du modèle via :
 
 https://alz-indu-frontend.onrender.com/  
 
-Si message d'erreur relancer les services render :  
-- backend (erreur à la prédiction)  https://dashboard.render.com/web/srv-d8crcu6k1jcs73a4h6vg 
-- frontend (erreur au chargement de la page streamlit) https://dashboard.render.com/web/srv-d8cs776k1jcs73a5jq5g/settings  
-
 Pipeline automatisé sans intervention manuelle répétée.
 ## 10. Gestion de projet
 
