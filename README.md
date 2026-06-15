@@ -13,13 +13,14 @@ Assmaa ABDELMOUMNI
 Magalie CESARINI
 
 # Structure du dépôt
+```bash
 Code
 ├── api/                     # Backend FastAPI + frontend Streamlit
 │   ├── src/                 # Pipelines + logique métier (préprocessing)
 │   ├── artifacts/           # Models / Metrics exportés pour l'API
 │   ├── backend/             # Code backend (routes FastAPI)
 │   ├── frontend/            # Code Streamlit (UI)
-│   └── requirements.txt     # Dépendances
+│   └── requirements.txt     # Dépendances API
 │
 ├── architecture/            # Schémas d’architecture (pipeline, datalake)
 │
@@ -49,6 +50,8 @@ Code
 ├── powerbi/                 # Dashboard
 │
 └── README.md                # Présentation du projet
+```
+
 
 
 # Travaux effectués
