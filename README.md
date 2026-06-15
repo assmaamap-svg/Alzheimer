@@ -7,9 +7,9 @@ Le projet porte sur la prédiction précoce du risque de développer la maladie 
 Comment exploiter les données médicales et les techniques de Machine Learning pour prédire précocement le risque de développer la maladie d’Alzheimer, afin d’aider les médecins à la décision et d’améliorer la prise en charge des patients ?
 
 # Concepteurs
-Bruce VIGNOLLES
-Assmaa ABDELMOUMNI
-Magalie CESARINI
+Bruce VIGNOLLES  
+Assmaa ABDELMOUMNI  
+Magalie CESARINI  
 
 # Structure du dépôt
 ```bash
