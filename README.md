@@ -1,4 +1,3 @@
-
 # Vue d'ensemble 
 
 Ce dépôt contient l’ensemble des travaux réalisés dans le cadre de la soutenance Développeur en Science des Données.
@@ -51,7 +50,6 @@ Code
 │
 └── README.md                # Présentation du projet
 ```
-
 
 
 # Travaux effectués
