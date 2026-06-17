@@ -14,7 +14,7 @@ Magalie CESARINI
 # Structure du dépôt
 ```bash
 Code
-├── api/                     # Backend FastAPI + frontend Streamlit
+├── industrialisation/                     # Backend FastAPI + frontend Streamlit
 │   ├── src/                 # Pipelines + logique métier (préprocessing, training)
 │   ├── artifacts/           # Models / Metrics exportés pour l'API
 │   ├── backend/             # Code backend (routes FastAPI)
