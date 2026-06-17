@@ -53,6 +53,7 @@ Code
 
 # Travaux effectués
 ## 1. Collecte des données – ADNI
+https://ida.loni.usc.edu/explore/jsp/search_v2/search.jsp?project=ADNI 
 
 Les données proviennent de 10 tables médicales intégrées dans un datalake :
 
@@ -84,6 +85,7 @@ Outils utilisés
     Python : nettoyage, feature engineering, scripts reproductibles
 
     Supabase (PostgreSQL + S3) : stockage structuré + stockage objets
+    https://supabase.com/dashboard/project/chsezchtwttnlyyiwovj/storage/files/buckets/DataLakeAlzheimer
 
 Pourquoi ces choix ?
 
