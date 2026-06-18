@@ -14,13 +14,6 @@ Magalie CESARINI
 # Structure du dépôt
 ```bash
 Code
-├── industrialisation/                     # Backend FastAPI + frontend Streamlit
-│   ├── src/                 # Pipelines + logique métier (préprocessing, training)
-│   ├── artifacts/           # Models / Metrics exportés pour l'API
-│   ├── backend/             # Code backend (routes FastAPI)
-│   ├── frontend/            # Code Streamlit (UI)
-│   └── requirements.txt     # Dépendances API
-│
 ├── architecture/            # Schémas d’architecture (pipeline, datalake)
 │
 ├── data/                    # Données ADNI (extraits anonymisés)
@@ -31,6 +24,13 @@ Code
 ├── etl/                     # Pipelines d’ingestion & transformation
 │   ├── knime/               # Workflows KNIME
 │   └── powerbi/             # Power BI (schéma en étoile)
+│
+├── industrialisation/                     # Backend FastAPI + frontend Streamlit
+│   ├── src/                 # Pipelines + logique métier (préprocessing, training)
+│   ├── artifacts/           # Models / Metrics exportés pour l'API
+│   ├── backend/             # Code backend (routes FastAPI)
+│   ├── frontend/            # Code Streamlit (UI)
+│   └── requirements.txt     # Dépendances API
 │
 ├── ml/                      # Machine Learning tabulaire
 │   ├── notebooks/           # EDA, préprocessing, modèles ML
