@@ -69,7 +69,7 @@ st.markdown('<p class="sub-title">Renseignez les caractéristiques cliniques du 
 
 st.markdown("---")
 
-with st.expander("🧩 Scores cognitifs", expanded=True):
+with st.expander("🧩 Scores cognitifs"):
     col1, col2 = st.columns(2)
 
     with col1:
