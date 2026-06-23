@@ -180,7 +180,7 @@ Déploiement du modèle via :
     Render (hébergement gratuit)
 
 
-https://alz-indu-frontend.onrender.com/  
+ https://alzheimer-frontend-wn2w.onrender.com  
 
 Pipeline automatisé sans intervention manuelle répétée.
 ## 10. Gestion de projet
