@@ -13,26 +13,37 @@ Magalie CESARINI
 
 # Structure du dépôt
 ```
-├── architecture/          # Schémas d'architecture (pipeline, datalake)
-├── data/                  # Données ADNI (extraits anonymisés)
-│   ├── raw/               # Données brutes
-│   └── processed/         # Données nettoyées / features
-├── eda/                   # Analyse exploratoire des données
-├── etl/                   # Pipelines d'ingestion & transformation
-├── preprocessing/         # Prétraitement des données
-├── modeling/              # Modélisation Machine Learning
-├── dl/                    # Deep Learning (IRM)
-│   ├── notebooks/         # CNN, prétraitement images
-│   └── models/            # Modèles DL
-├── industrialisation/     # Backend FastAPI + déploiement
-│   ├── src/               # Logique métier
-│   ├── artifacts/         # Modèles exportés pour l'API
-│   ├── backend/           # Routes FastAPI
-│   └── requirements.txt   # Dépendances API
-├── docs/                  # Documentation projet
-├── powerbi/               # Dashboard interactif
+├── architecture/            # Schémas d'architecture (pipeline, datalake)
+│
+├── data/                    # Données ADNI (extraits anonymisés)
+│   ├── raw/                 # Données brutes
+│   └── processed/           # Données nettoyées / features
+│
+├── eda/                     # Analyse exploratoire des données
+│
+├── etl/                     # Pipelines d'ingestion & transformation
+│
+├── preprocessing/           # Prétraitement des données
+│
+├── modeling/                # Modélisation Machine Learning
+│
+├── dl/                      # Deep Learning (IRM)
+│   ├── notebooks/           # CNN, prétraitement images
+│   └── models/              # Modèles DL
+│
+├── industrialisation/       # Backend FastAPI + déploiement
+│   ├── src/                 # Logique métier (préprocessing, training)
+│   ├── artifacts/           # Modèles exportés pour l'API
+│   ├── backend/             # Routes FastAPI
+│   └── requirements.txt     # Dépendances API
+│
+├── docs/                    # Documentation projet
+│
+├── powerbi/                 # Dashboard interactif
 │   └── Dashboard_Alzheimer.pbix
-└── README.md              # Présentation du projet
+│
+└── README.md                # Présentation du projet
+
 ```
 
 # Travaux effectués
