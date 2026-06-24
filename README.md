@@ -12,42 +12,28 @@ Assmaa ABDELMOUMNI
 Magalie CESARINI  
 
 # Structure du dépôt
-```bash
-Code
-├── architecture/            # Schémas d’architecture (pipeline, datalake)
-│
-├── data/                    # Données ADNI (extraits anonymisés)
-│   ├── raw/                 # Données brutes
-│   │   └── IRM/             # Scans IRM
-│   └── processed/           # Données nettoyées / features
-│
-├── etl/                     # Pipelines d’ingestion & transformation
-│   ├── knime/               # Workflows KNIME
-│   └── powerbi/             # Power BI (schéma en étoile)
-│
-├── industrialisation/       # Backend FastAPI + frontend Streamlit
-│   ├── src/                 # Pipelines + logique métier (préprocessing, training)
-│   ├── artifacts/           # Models / Metrics exportés pour l'API
-│   ├── backend/             # Code backend (routes FastAPI)
-│   ├── frontend/            # Code Streamlit (UI)
-│   └── requirements.txt     # Dépendances API
-│
-├── ml/                      # Machine Learning tabulaire
-│   ├── notebooks/           # EDA, préprocessing, modèles ML
-│   ├── models/              # Modèles ML
-│   └── src/                 # Scripts ML (prépocessing, training)
-│
-├── dl/                      # Deep Learning (IRM)
-│   ├── notebooks/           # CNN, prétraitement images
-│   └── models/              # Modèles DL              
-│
-├── docs/                    # Documentation projet
-│   ├── pia/                 # Rapport PIA RGPD
-│   └── fiche_projet/        # Cadrage
-│
-├── powerbi/                 # Dashboard
-│
-└── README.md                # Présentation du projet
+
+├── architecture/          # Schémas d'architecture (pipeline, datalake)
+├── data/                  # Données ADNI (extraits anonymisés)
+│   ├── raw/               # Données brutes
+│   └── processed/         # Données nettoyées / features
+├── eda/                   # Analyse exploratoire des données
+├── etl/                   # Pipelines d'ingestion & transformation
+├── preprocessing/         # Prétraitement des données
+├── modeling/              # Modélisation Machine Learning
+├── dl/                    # Deep Learning (IRM)
+│   ├── notebooks/         # CNN, prétraitement images
+│   └── models/            # Modèles DL
+├── industrialisation/     # Backend FastAPI + déploiement
+│   ├── src/               # Logique métier (préprocessing, training)
+│   ├── artifacts/         # Modèles exportés pour l'API
+│   ├── backend/           # Routes FastAPI
+│   └── requirements.txt   # Dépendances API
+├── docs/                  # Documentation projet
+├── powerbi/               # Dashboard interactif
+│   └── Dashboard_Alzheimer.pbix
+└── README.md              # Présentation du projet
+
 ```
 
 
@@ -159,6 +145,9 @@ Utilisation de CNN pour analyser les images IRM (atrophie hippocampique).
     Classification Alzheimer / Sain
 
 ## 8. Visualisation – Power BI
+
+[![Power BI](https://img.shields.io/badge/Power%20BI-Voir%20le%20Dashboard-F2C811?style=for-the-badge&logo=powerbi&logoColor=black)](https://app.powerbi.com/view?r=eyJrIjoiNDVjNThlMzQtMWQ4ZS00NGQ5LTllNmUtMzZhNWY2YThkZDUyIiwidCI6IjM3MzAxNmY4LTc5YTktNGVlZC04MGQyLTEwMGNlOTQ4ZDk2MCIsImMiOjl9)
+
 
 Création de dashboards interactifs :
 
