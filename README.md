@@ -144,7 +144,7 @@ Utilisation de CNN pour analyser les images IRM (atrophie hippocampique).
 
 ## 8. Visualisation – Power BI
 
-<iframe title="Dashboard_Alzheimer" width="600" height="373.5" src="https://app.powerbi.com/view?r=eyJrIjoiOWJlOWNjYTMtNWQwYy00YjYwLTk0OGUtOGI3MzhkMjI4MTJkIiwidCI6IjM3MzAxNmY4LTc5YTktNGVlZC04MGQyLTEwMGNlOTQ4ZDk2MCIsImMiOjl9" frameborder="0" allowFullScreen="true"></iframe>
+[![Power BI](https://img.shields.io/badge/Power%20BI-Voir%20le%20Dashboard-F2C811?style=for-the-badge&logo=powerbi&logoColor=black)](https://app.powerbi.com/view?r=eyJrIjoiNDVjNThlMzQtMWQ4ZS00NGQ5LTllNmUtMzZhNWY2YThkZDUyIiwidCI6IjM3MzAxNmY4LTc5YTktNGVlZC04MGQyLTEwMGNlOTQ4ZDk2MCIsImMiOjl9)
 
 Création de dashboards interactifs :
 
