@@ -12,7 +12,7 @@ Assmaa ABDELMOUMNI
 Magalie CESARINI  
 
 # Structure du dépôt
-
+```
 ├── architecture/          # Schémas d'architecture (pipeline, datalake)
 ├── data/                  # Données ADNI (extraits anonymisés)
 │   ├── raw/               # Données brutes
@@ -25,7 +25,7 @@ Magalie CESARINI
 │   ├── notebooks/         # CNN, prétraitement images
 │   └── models/            # Modèles DL
 ├── industrialisation/     # Backend FastAPI + déploiement
-│   ├── src/               # Logique métier (préprocessing, training)
+│   ├── src/               # Logique métier
 │   ├── artifacts/         # Modèles exportés pour l'API
 │   ├── backend/           # Routes FastAPI
 │   └── requirements.txt   # Dépendances API
@@ -33,9 +33,7 @@ Magalie CESARINI
 ├── powerbi/               # Dashboard interactif
 │   └── Dashboard_Alzheimer.pbix
 └── README.md              # Présentation du projet
-
 ```
-
 
 # Travaux effectués
 ## 1. Collecte des données – ADNI
