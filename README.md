@@ -144,8 +144,7 @@ Utilisation de CNN pour analyser les images IRM (atrophie hippocampique).
 
 ## 8. Visualisation – Power BI
 
-[![Power BI](https://img.shields.io/badge/Power%20BI-Voir%20le%20Dashboard-F2C811?style=for-the-badge&logo=powerbi&logoColor=black)](https://app.powerbi.com/view?r=eyJrIjoiNDVjNThlMzQtMWQ4ZS00NGQ5LTllNmUtMzZhNWY2YThkZDUyIiwidCI6IjM3MzAxNmY4LTc5YTktNGVlZC04MGQyLTEwMGNlOTQ4ZDk2MCIsImMiOjl9)
-
+https://app.powerbi.com/groups/me/reports/828367e4-6873-4df0-99ba-3c32b168ff74/09cce96b182553b17192?experience=power-bi
 
 Création de dashboards interactifs :
 
